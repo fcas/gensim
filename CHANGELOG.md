@@ -1,5 +1,40 @@
 Changes
 =======
+
+## 4.4.0, 2025-10-16
+
+### :+1: Improvements
+
+* Release 4.4.0 __(julianpollmann](https://github.com/julianpollmann)__, [#3629](https://github.com/piskvorky/gensim/pull/3629)
+* Migration numPy 2.0 and remove deprecated scipy sparsetools functions __(julianpollmann](https://github.com/julianpollmann)__, [#3615](https://github.com/piskvorky/gensim/pull/3615)
+* Numpy 2.0.0 update and removing deprecated scipy modules __(hechth](https://github.com/hechth)__, [#3562](https://github.com/piskvorky/gensim/pull/3562)
+* Fixes gh actions deprecated runners and macOS arch issue __(julianpollmann](https://github.com/julianpollmann)__, [#3608](https://github.com/piskvorky/gensim/pull/3608)
+
+### :books: Tutorial and doc improvements
+
+* CHANGELOG: fix typo 'Replaceed' → 'Replaced' __(nakanoh](https://github.com/nakanoh)__, [#3613](https://github.com/piskvorky/gensim/pull/3613)
+* add route4me.com as bronze sponsor __(mpenkov](https://github.com/mpenkov)__, [#3558](https://github.com/piskvorky/gensim/pull/3558)
+
+## 4.3.3, 2024-07-19
+
+### :star2: New Features
+
+### :red_circle: Bug fixes
+
+* Correct file argument name in KeyedVectors.save docstring (__[hammad7](https://github.com/hammad7)__, [#3532](https://github.com/piskvorky/gensim/pull/3532))
+* Import deprecated scipy.linalg.triu from numpy.triu instead (__[Luffy610](https://github.com/Luffy610)__, [#3524](https://github.com/piskvorky/gensim/pull/3524))
+
+### :books: Tutorial and doc improvements
+
+* Updated the broken Documentation Link on the README.md (__[wittyicon29](https://github.com/wittyicon29)__, [#3505](https://github.com/piskvorky/gensim/pull/3505))
+
+### :+1: Improvements
+
+* Add support for python3.12 wheels (__[YoungMind1](https://github.com/YoungMind1)__, [#3531](https://github.com/piskvorky/gensim/pull/3531))
+* Removed scipy from build-only dependencies (__[filip-komarzyniec](https://github.com/filip-komarzyniec)__, [#3538](https://github.com/piskvorky/gensim/pull/3538))
+* Use newer unittest.mock everwhere (__[a-detiste](https://github.com/a-detiste)__, [#3529](https://github.com/piskvorky/gensim/pull/3529))
+* Handle optional parameters without implicit bool cast (__[nk-fouque](https://github.com/nk-fouque)__, [#3502](https://github.com/piskvorky/gensim/pull/3502))
+
 ## 4.3.2, 2023-08-23
 
 ### :red_circle: Bug fixes
@@ -78,7 +113,7 @@ Changes
 * Switched to Cython language level 3 (__[pabs3](https://github.com/pabs3)__, [#3344](https://github.com/RaRe-Technologies/gensim/pull/3344))
 * Declare variables prior to for loop in fastss.pyx for ANSI C compatibility (__[hstk30](https://github.com/hstk30)__, [#3378](https://github.com/RaRe-Technologies/gensim/pull/3378))
 * Implement numpy hack in setup.py to enable install under Poetry (__[jaymegordo](https://github.com/jaymegordo)__, [#3363](https://github.com/RaRe-Technologies/gensim/pull/3363))
-* Replaceed np.multiply with np.square and copyedit in translation_matrix.py (__[dymil](https://github.com/dymil)__, [#3374](https://github.com/RaRe-Technologies/gensim/pull/3374))
+* Replaced np.multiply with np.square and copyedit in translation_matrix.py (__[dymil](https://github.com/dymil)__, [#3374](https://github.com/RaRe-Technologies/gensim/pull/3374))
 
 ### 🔮 Testing, CI, housekeeping
 

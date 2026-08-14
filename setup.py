@@ -272,7 +272,6 @@ visdom_req = ['visdom >= 0.1.8, != 0.1.8.7']
 core_testenv = [
     'pytest',
     'pytest-cov',
-    'mock',
     'testfixtures',
 ]
 
@@ -335,7 +334,7 @@ install_requires = [
 
 setup(
     name='gensim',
-    version='4.3.2.dev0',
+    version='4.4.0',
     description='Python framework for fast Vector Space Modelling',
     long_description=LONG_DESCRIPTION,
 
@@ -368,11 +367,11 @@ setup(
         'Environment :: Console',
         'Intended Audience :: Science/Research',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
         'Programming Language :: Python :: 3 :: Only',
         'Topic :: Scientific/Engineering :: Artificial Intelligence',
         'Topic :: Scientific/Engineering :: Information Analysis',
@@ -380,7 +379,7 @@ setup(
     ],
 
     test_suite="gensim.test",
-    python_requires='>=3.8',
+    python_requires='>=3.9',
     install_requires=install_requires,
     tests_require=linux_testenv,
     extras_require={
